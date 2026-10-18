@@ -1,0 +1,12 @@
+{
+  "domain": "fryderyk",
+  "name": "Fryderyk (e-dziennik szkoły muzycznej)",
+  "codeowners": ["@zdanowiczkonrad"],
+  "config_flow": true,
+  "documentation": "https://github.com/zdanowiczkonrad/fryderyk-ha",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/zdanowiczkonrad/fryderyk-ha/issues",
+  "requirements": ["beautifulsoup4>=4.12"],
+  "version": "0.1.0"
+}

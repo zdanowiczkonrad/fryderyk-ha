@@ -1,0 +1,54 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Fryderyk e-journal",
+        "description": "Log in with the same account you use on the school's Fryderyk website.",
+        "data": {
+          "url": "School address",
+          "username": "Login",
+          "password": "Password"
+        },
+        "data_description": {
+          "url": "For example https://twojaszkola.fryderyk.edu.pl"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Re-enter password",
+        "description": "The password for {username} no longer works.",
+        "data": { "password": "Password" }
+      }
+    },
+    "error": {
+      "invalid_auth": "Invalid login or password.",
+      "cannot_connect": "Could not reach the school's Fryderyk site."
+    },
+    "abort": {
+      "already_configured": "This account is already configured.",
+      "reauth_successful": "Re-authentication was successful."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "data": {
+          "weeks": "Weeks ahead to fetch",
+          "scan_minutes": "Update interval"
+        }
+      }
+    }
+  },
+  "entity": {
+    "calendar": {
+      "lessons": { "name": "Lessons" }
+    },
+    "sensor": {
+      "next_lesson": { "name": "Next lesson" },
+      "lessons_today": { "name": "Lessons today" },
+      "cancelled_lessons": { "name": "Cancelled lessons" },
+      "unread_messages": { "name": "Unread messages" },
+      "latest_message": { "name": "Latest message" },
+      "announcements": { "name": "Announcements" }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "E-dziennik Fryderyk",
+        "description": "Zaloguj się tym samym kontem, którego używasz na stronie Fryderyka w szkole.",
+        "data": {
+          "url": "Adres szkoły",
+          "username": "Login",
+          "password": "Hasło"
+        },
+        "data_description": {
+          "url": "Na przykład https://twojaszkola.fryderyk.edu.pl"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Podaj hasło ponownie",
+        "description": "Hasło dla {username} przestało działać.",
+        "data": { "password": "Hasło" }
+      }
+    },
+    "error": {
+      "invalid_auth": "Nieprawidłowy login lub hasło.",
+      "cannot_connect": "Nie można połączyć się ze stroną Fryderyka."
+    },
+    "abort": {
+      "already_configured": "To konto jest już skonfigurowane.",
+      "reauth_successful": "Ponowne logowanie powiodło się."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "data": {
+          "weeks": "Liczba tygodni do przodu",
+          "scan_minutes": "Częstotliwość odświeżania"
+        }
+      }
+    }
+  },
+  "entity": {
+    "calendar": {
+      "lessons": { "name": "Lekcje" }
+    },
+    "sensor": {
+      "next_lesson": { "name": "Następna lekcja" },
+      "lessons_today": { "name": "Lekcje dzisiaj" },
+      "cancelled_lessons": { "name": "Odwołane lekcje" },
+      "unread_messages": { "name": "Nieprzeczytane wiadomości" },
+      "latest_message": { "name": "Ostatnia wiadomość" },
+      "announcements": { "name": "Ogłoszenia" }
+    }
+  }
+}
