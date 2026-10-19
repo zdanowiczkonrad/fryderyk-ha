@@ -29,3 +29,9 @@ for new cancellations and new messages. UI config flow with reauth; options for 
 - **Verified:** `./scripts/check.sh` green before the commit; `.env` is ignored and not tracked.
 - **Learned:** the user wants to add the remote (`origin`) themselves, later.
 - **Next:** item 4 (deploy). It needs the HA host and install method (HACS needs the remote; until then, a manual copy).
+
+### 2026-10-19: published
+- **Done:** public repo `zdanowiczkonrad/fryderyk-ha` created and `main` pushed (user asked). Before pushing, the example school host was replaced with a placeholder and the manifest links were pointed at the new repo.
+- **Verified:** scanned all history for the password, the child's login, teacher names and the school host: none found. First CI run green.
+- **Learned:** keep real school or person identifiers out of examples; the repo is public.
+- **Next:** tag `v0.1.0` (a GitHub release) so HACS shows a version; then item 4 (deploy to HA via HACS custom repository).
