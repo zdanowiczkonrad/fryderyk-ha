@@ -35,3 +35,7 @@ for new cancellations and new messages. UI config flow with reauth; options for 
 - **Verified:** scanned all history for the password, the child's login, teacher names and the school host: none found. First CI run green.
 - **Learned:** keep real school or person identifiers out of examples; the repo is public.
 - **Next:** tag `v0.1.0` (a GitHub release) so HACS shows a version; then item 4 (deploy to HA via HACS custom repository).
+
+### 2026-10-19: release v1.0.0
+- **Done:** manifest version bumped to 1.0.0; tagged `v1.0.0` and published a GitHub release (the user chose 1.0.0 over 0.1.0).
+- **Next:** item 4. Install via HACS custom repository on the home HA and verify the live entities.
